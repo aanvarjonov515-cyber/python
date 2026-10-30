@@ -1,0 +1,6 @@
+{
+  "name": "PyQuest Academy",
+  "description": "Python’ni 0 dan o‘yin orqali o‘rganish platformasi — interaktiv darslar, Python code editor, o‘yin elementlari va sertifikat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

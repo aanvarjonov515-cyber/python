@@ -1,0 +1,2325 @@
+# LOYIHA NOMI
+
+**PyQuest Academy — Python’ni 0 dan o‘yin orqali o‘rganish**
+
+Sen senior Front-End Developer, Python o‘qituvchisi, UX/UI dizayner va ta’lim platformalari bo‘yicha mutaxassis sifatida ishlaysan.
+
+Menga universitet va kollej talabalari uchun Python dasturlash tilini mutlaqo 0 dan boshlab bosqichma-bosqich o‘rgatadigan zamonaviy, interaktiv va o‘yin elementlariga ega web-ilova yarat.
+
+Platformaning asosiy maqsadi:
+
+> Dasturlashni umuman bilmaydigan talaba barcha bosqichlarni ketma-ket tugatgach, Python’da mustaqil dastur yozish, masalalarni algoritmga aylantirish, xatolarni topish va kichik real loyihalar yaratish darajasiga yetishi kerak.
+
+---
+
+# 1. ASOSIY TAMOYIL
+
+Sayt oddiy kitob yoki matnli kursga o‘xshamasin.
+
+Talaba saytda:
+
+- nazariyani o‘qiydi;
+- kodni ko‘radi;
+- kodni o‘zi yozadi;
+- natijani tekshiradi;
+- xato qilsa tushuntirish oladi;
+- XP yig‘adi;
+- level oshiradi;
+- achievement oladi;
+- kunlik challenge bajaradi;
+- yangi topshiriqlar oladi;
+- oldingi natijalarini ko‘radi;
+- kurs bo‘yicha progressini kuzatadi.
+
+Talabani uzoq nazariya bilan zeriktirma.
+
+Murakkab terminlarni imkon qadar sodda o‘zbek tilida tushuntir.
+
+Masalan:
+
+Yomon tushuntirish:
+
+"Iterator iterable obyekt bo‘yicha iteratsiyani amalga oshiruvchi obyekt hisoblanadi."
+
+Yaxshi tushuntirish:
+
+"Iterator — elementlarni bittadan olib berib boradigan mexanizm."
+
+Har bir yangi termin birinchi marta ishlatilganda sodda tushuntirish ber.
+
+---
+
+# 2. SAYT TILI
+
+Asosiy interfeys:
+
+**O‘zbek tili**
+
+Kod:
+
+**Python**
+
+Python kalit so‘zlari tarjima qilinmasin:
+
+```python
+if
+else
+elif
+for
+while
+def
+return
+class
+import
+try
+except
+```
+
+Lekin ularning vazifasi o‘zbekcha tushuntirilsin.
+
+Masalan:
+
+```python
+if
+```
+
+— "agar" ma’nosida ishlatiladi.
+
+---
+
+# 3. HAR BIR DARSNING MAJBURIY TUZILMASI
+
+Har bir dars aynan uch asosiy qismdan iborat bo‘lsin.
+
+## 1. Qisqa nazariya
+
+Nazariya:
+
+- sodda;
+- qisqa;
+- tushunarli;
+- real hayotiy misol bilan;
+- keraksiz akademik terminlarsiz
+
+bo‘lsin.
+
+Nazariya 3–7 daqiqada o‘qiladigan hajmdan oshmasin.
+
+---
+
+## 2. Kod misollari
+
+Har bir mavzuda eng sodda koddan boshlansin.
+
+Kodlarning muhim qismlariga comment yozilsin.
+
+Masalan:
+
+```python
+ism = "Ali"  # Talabaning ismini saqlaymiz
+
+print(ism)   # Ismni ekranga chiqaramiz
+```
+
+Kodning pastida alohida:
+
+**Kod qanday ishlaydi?**
+
+bo‘limi bo‘lsin.
+
+Har bir satr sodda tilda izohlansin.
+
+---
+
+## 3. Taqqoslash jadvali
+
+Mavzuga mos qisqa jadval ko‘rsatilsin.
+
+Masalan:
+
+| Tip | Misol | Vazifasi |
+|---|---|---|
+| int | 25 | Butun son |
+| float | 3.14 | O‘nlik son |
+| str | "Salom" | Matn |
+| bool | True | Ha/Yo‘q qiymat |
+
+Jadval faqat kerakli ma’lumotlarni ko‘rsatsin.
+
+---
+
+# 4. SIKLLAR UCHUN MUHIM QOIDA
+
+Har bir sikl uchun nazariya qismida faqat **1 ta eng sodda kod misoli** ko‘rsatilsin.
+
+## for
+
+Faqat bitta asosiy misol:
+
+```python
+for son in range(5):
+    print(son)
+```
+
+## while
+
+Faqat bitta asosiy misol:
+
+```python
+son = 1
+
+while son <= 5:
+    print(son)
+    son += 1
+```
+
+Bir darsning nazariya qismida bir siklga 5–10 ta misol berib talabani chalg‘itma.
+
+Keyingi mashqlarda turli vazifalar berilishi mumkin.
+
+---
+
+# 5. KURS YO‘LI
+
+Kursni LEVEL shaklida yarat.
+
+---
+
+# LEVEL 0 — PYTHON BILAN TANISHUV
+
+Mavzular:
+
+1. Dasturlash nima?
+2. Python nima?
+3. Python qayerlarda ishlatiladi?
+4. Dastur nima?
+5. Kod nima?
+6. Python sintaksisi
+7. Birinchi Python dasturi
+8. `print()`
+9. Comment
+10. Python xatolari bilan tanishish
+
+Birinchi dastur:
+
+```python
+print("Salom, Python!")
+```
+
+Talaba birinchi darsdayoq kod yozsin.
+
+---
+
+# LEVEL 1 — O‘ZGARUVCHILAR
+
+Mavzular:
+
+- variable;
+- variable nomlash;
+- qiymat berish;
+- qiymatni almashtirish;
+- bir nechta variable;
+- yaxshi variable nomlari;
+- noto‘g‘ri variable nomlari.
+
+Misollar:
+
+```python
+ism = "Ali"
+yosh = 18
+```
+
+Muhim kalit tushunchalar:
+
+- variable
+- qiymat
+- nom
+- `=`
+
+---
+
+# LEVEL 2 — MA’LUMOT TURLARI
+
+Talaba quyidagilarni o‘rgansin:
+
+```text
+int
+float
+str
+bool
+None
+```
+
+Keyinchalik:
+
+```text
+list
+tuple
+set
+dict
+```
+
+Har birining:
+
+- nima ekanligi;
+- qayerda ishlatilishi;
+- eng sodda misoli;
+- boshqasidan farqi
+
+ko‘rsatilsin.
+
+---
+
+# LEVEL 3 — INPUT VA OUTPUT
+
+Mavzular:
+
+```python
+print()
+input()
+```
+
+Misol:
+
+```python
+ism = input("Ismingiz: ")
+
+print("Salom", ism)
+```
+
+Talaba foydalanuvchidan ma’lumot olishni o‘rgansin.
+
+---
+
+# LEVEL 4 — TYPE CONVERSION
+
+Quyidagilar o‘rgatilsin:
+
+```python
+int()
+float()
+str()
+bool()
+```
+
+Masalan:
+
+```python
+yosh = int(input("Yoshingiz: "))
+```
+
+---
+
+# LEVEL 5 — OPERATORLAR
+
+Arifmetik operatorlar:
+
+```text
++
+-
+*
+/
+//
+%
+**
+```
+
+Taqqoslash:
+
+```text
+==
+!=
+>
+<
+>=
+<=
+```
+
+Mantiqiy operatorlar:
+
+```text
+and
+or
+not
+```
+
+Assignment:
+
+```text
+=
++=
+-=
+*=
+/=
+```
+
+Har birini real misollar bilan tushuntir.
+
+---
+
+# LEVEL 6 — SHART OPERATORLARI
+
+Mavzular:
+
+```python
+if
+elif
+else
+```
+
+Boshlanish:
+
+```python
+yosh = 18
+
+if yosh >= 18:
+    print("Kirish mumkin")
+```
+
+Keyin:
+
+```python
+if
+elif
+else
+```
+
+birga ishlatilishini tushuntir.
+
+---
+
+# LEVEL 7 — FOR SIKLI
+
+Mavzular:
+
+- `for`
+- `range()`
+- iterator variable
+- takrorlash
+
+Asosiy nazariy misol faqat:
+
+```python
+for son in range(5):
+    print(son)
+```
+
+Keyin mashqlar yarat.
+
+---
+
+# LEVEL 8 — WHILE SIKLI
+
+Asosiy tushunchalar:
+
+```python
+while
+```
+
+condition.
+
+Nazariy misol faqat:
+
+```python
+son = 1
+
+while son <= 5:
+    print(son)
+    son += 1
+```
+
+Keyin mashqlar ber.
+
+---
+
+# LEVEL 9 — BREAK, CONTINUE
+
+O‘rgat:
+
+```python
+break
+continue
+```
+
+Talabaga ularning farqini jadval bilan ko‘rsat.
+
+---
+
+# LEVEL 10 — STRING
+
+Quyidagilarni bosqichma-bosqich o‘rgat:
+
+```text
+str
+index
+slice
+len()
+lower()
+upper()
+title()
+capitalize()
+strip()
+replace()
+split()
+join()
+find()
+count()
+startswith()
+endswith()
+```
+
+Shuningdek:
+
+```python
+f-string
+```
+
+Masalan:
+
+```python
+ism = "Ali"
+
+print(f"Salom, {ism}")
+```
+
+---
+
+# LEVEL 11 — LIST
+
+O‘rgat:
+
+```python
+list
+```
+
+Amallar:
+
+```text
+append()
+insert()
+remove()
+pop()
+clear()
+index()
+count()
+sort()
+reverse()
+copy()
+len()
+```
+
+Index:
+
+```python
+mevalar[0]
+```
+
+Slice:
+
+```python
+mevalar[1:3]
+```
+
+---
+
+# LEVEL 12 — TUPLE
+
+O‘rgat:
+
+```python
+tuple
+```
+
+List bilan farqini alohida jadvalda ko‘rsat.
+
+---
+
+# LEVEL 13 — SET
+
+O‘rgat:
+
+```python
+set
+```
+
+Asosiy metodlar:
+
+```text
+add()
+remove()
+discard()
+union()
+intersection()
+difference()
+```
+
+---
+
+# LEVEL 14 — DICTIONARY
+
+O‘rgat:
+
+```python
+dict
+```
+
+Misol:
+
+```python
+talaba = {
+    "ism": "Ali",
+    "yosh": 18
+}
+```
+
+Key:
+
+Value:
+
+haqida sodda tushuntirish ber.
+
+Metodlar:
+
+```text
+get()
+keys()
+values()
+items()
+update()
+pop()
+```
+
+---
+
+# LEVEL 15 — FUNCTIONS
+
+O‘rgat:
+
+```python
+def
+```
+
+Misol:
+
+```python
+def salom():
+    print("Salom")
+```
+
+Keyin:
+
+- parametr;
+- argument;
+- `return`;
+- default parametr;
+- bir nechta parametr
+
+haqida tushuntir.
+
+Masalan:
+
+```python
+def qoshish(a, b):
+    return a + b
+```
+
+---
+
+# LEVEL 16 — SCOPE
+
+Sodda qilib tushuntir:
+
+- local variable;
+- global variable.
+
+Keraksiz murakkab terminologiyadan foydalanma.
+
+---
+
+# LEVEL 17 — MODULE VA IMPORT
+
+O‘rgat:
+
+```python
+import
+from
+as
+```
+
+Misollar:
+
+```python
+import math
+```
+
+Keyingi darslarda:
+
+```python
+random
+datetime
+math
+```
+
+modullaridan foydalan.
+
+---
+
+# LEVEL 18 — RANDOM
+
+O‘rgat:
+
+```python
+random.randint()
+random.choice()
+random.shuffle()
+```
+
+Bu levelni kichik o‘yinlar bilan bog‘la.
+
+Masalan:
+
+**Son topish o‘yini.**
+
+---
+
+# LEVEL 19 — EXCEPTION
+
+Talaba xatolardan qo‘rqmasligi kerak.
+
+O‘rgat:
+
+```python
+try
+except
+else
+finally
+```
+
+Sodda xato misollari bilan tushuntir.
+
+---
+
+# LEVEL 20 — FILELAR
+
+O‘rgat:
+
+```python
+open()
+read()
+write()
+close()
+```
+
+Shuningdek:
+
+```python
+with open(...)
+```
+
+Talaba:
+
+- txt yaratish;
+- txt o‘qish;
+- txtga yozish
+
+kabi mashqlarni bajarsin.
+
+---
+
+# LEVEL 21 — LIST COMPREHENSION
+
+Oddiy `for` bilan yozilgan kod va list comprehension o‘rtasidagi farqni sodda ko‘rsat.
+
+Juda murakkab misollardan boshlama.
+
+---
+
+# LEVEL 22 — LAMBDA
+
+O‘rgat:
+
+```python
+lambda
+```
+
+Faqat tushunishga kerakli darajada.
+
+---
+
+# LEVEL 23 — MAP, FILTER
+
+O‘rgat:
+
+```python
+map()
+filter()
+```
+
+Oddiy funksiyalar bilan taqqosla.
+
+---
+
+# LEVEL 24 — OOP BOSHLANISHI
+
+O‘rgat:
+
+```text
+class
+object
+attribute
+method
+```
+
+Misol:
+
+```python
+class Talaba:
+    pass
+```
+
+Keyin:
+
+```python
+__init__()
+self
+```
+
+---
+
+# LEVEL 25 — OOP DAVOMI
+
+O‘rgat:
+
+- constructor;
+- attribute;
+- method;
+- inheritance;
+- encapsulation;
+- polymorphism.
+
+Terminlarni avval oddiy hayotiy misolda tushuntir.
+
+Masalan:
+
+Class = qolip.
+
+Object = shu qolipdan yaratilgan narsa.
+
+---
+
+# LEVEL 26 — DATE VA TIME
+
+O‘rgat:
+
+```python
+datetime
+```
+
+Talabalar:
+
+- bugungi sana;
+- vaqt;
+- sanalar farqi
+
+bilan ishlashni o‘rgansin.
+
+---
+
+# LEVEL 27 — JSON
+
+O‘rgat:
+
+```python
+json
+```
+
+Talaba:
+
+Python dictionary ↔ JSON
+
+o‘tkazishni tushunsin.
+
+---
+
+# LEVEL 28 — PIP VA PACKAGE
+
+Sodda tushuntir:
+
+```bash
+pip install
+```
+
+Package nima?
+
+Library nima?
+
+Module nima?
+
+Farqlarini jadval bilan ko‘rsat.
+
+---
+
+# LEVEL 29 — DEBUGGING
+
+Talaba xatoni topishni o‘rgansin.
+
+Sayt quyidagi formatdagi mashqlarni bersin:
+
+```python
+ism = "Ali"
+
+pritn(ism)
+```
+
+Savol:
+
+**Xatoni toping.**
+
+Talaba:
+
+```python
+print(ism)
+```
+
+deb tuzatishi kerak.
+
+---
+
+# LEVEL 30 — ALGORITMIK FIKRLASH
+
+Talabaga muammo → qadamlar → kod usulini o‘rgat.
+
+Masalan:
+
+"Ikki sondan kattasini toping."
+
+Avval:
+
+1. ikkita son ol;
+2. solishtir;
+3. kattasini chiqar.
+
+Keyin Python kodi.
+
+---
+
+# LEVEL 31 — MINI PROJECTLAR
+
+Talaba kichik loyihalarni bajarsin.
+
+Masalan:
+
+- Kalkulyator
+- Son topish o‘yini
+- Quiz
+- Parol generator
+- Kontaktlar ro‘yxati
+- Talabalar baholash dasturi
+- Xarajat hisoblagich
+- Lug‘at dasturi
+- To-do list
+- Oddiy bank hisob dasturi
+
+Lekin loyihani darhol tayyor kod bilan berma.
+
+Talabaga bosqichma-bosqich topshiriqlar ber.
+
+---
+
+# LEVEL 32 — FINAL PYTHON CHALLENGE
+
+Talaba oldingi mavzulardan foydalanib mustaqil loyiha yaratishi kerak.
+
+Final loyiha:
+
+- variable;
+- condition;
+- loop;
+- list/dict;
+- function;
+- file;
+- exception;
+- OOP
+
+elementlaridan bir nechtasini ishlatsin.
+
+---
+
+# 6. HAR BIR DARSDA KEYWORDS BO‘LSIN
+
+Har bir darsda:
+
+### Kalit so‘zlar
+
+kartasi bo‘lsin.
+
+Masalan:
+
+```text
+if
+else
+condition
+bool
+==
+```
+
+Har birining yonida qisqa tushuntirish bo‘lsin.
+
+---
+
+# 7. COMMENT ORQALI O‘RGATISH
+
+Boshlang‘ich kodlarda commentlardan faol foydalan.
+
+Masalan:
+
+```python
+# Talabaning yoshini saqlaymiz
+yosh = 18
+
+# Yoshni ekranga chiqaramiz
+print(yosh)
+```
+
+Talaba rivojlangani sari commentlar kamaytirilsin.
+
+Maqsad:
+
+talabani commentga bog‘lab qo‘ymaslik.
+
+---
+
+# 8. INTERAKTIV CODE EDITOR
+
+Saytda Python code editor bo‘lsin.
+
+UI taxminan:
+
+```text
+┌────────────────────────────────────┐
+│ Python Code Editor                 │
+│                                    │
+│ >>>                                │
+│                                    │
+└────────────────────────────────────┘
+
+[ ▶ Kodni ishga tushirish ]
+
+Natija:
+
+┌────────────────────────────────────┐
+│ Console                            │
+│ Salom Python                       │
+└────────────────────────────────────┘
+```
+
+Editor:
+
+- line number;
+- syntax highlighting;
+- Run;
+- Reset;
+- Hint;
+- Format code
+
+imkoniyatlariga ega bo‘lsin.
+
+Agar real Python runtime mavjud bo‘lmasa, xavfsiz browser runtime sifatida Pyodide kabi yechimga tayyor arxitektura qur.
+
+---
+
+# 9. MASHQLAR TIZIMI
+
+Har bir darsda bir xil mashq formatidan foydalanma.
+
+Mashqlar aralash bo‘lsin.
+
+Masalan:
+
+### 1. Kod yozish
+
+Talaba topshiriq bo‘yicha kod yozadi.
+
+### 2. Xatoni top
+
+Noto‘g‘ri kod beriladi.
+
+### 3. Natijani top
+
+Kod beriladi.
+
+Talaba natijasini taxmin qiladi.
+
+### 4. Bo‘sh joyni to‘ldir
+
+```python
+ism = _____("Ismingiz: ")
+```
+
+### 5. To‘g‘ri variant
+
+Multiple choice.
+
+### 6. Kodni tartibga sol
+
+Kod satrlari aralashtirib beriladi.
+
+Talaba to‘g‘ri tartibga qo‘yadi.
+
+### 7. Vaziyatli masala
+
+Masalan:
+
+"Do‘kon egasi mahsulot narxidan 10% chegirma hisoblamoqchi."
+
+Talaba kod yozadi.
+
+### 8. Debug Challenge
+
+Xatoli kodni tuzatadi.
+
+### 9. Code Prediction
+
+Kod ishlaganda nima chiqishini topadi.
+
+### 10. Mini Challenge
+
+Bir nechta bilimni birlashtiradi.
+
+Mashqlar doimo bir xil ketma-ketlikda kelmasin.
+
+---
+
+# 10. HECH QACHON BIR XIL TOPSHIRIQ QAYTARILMASIN
+
+Bu juda muhim talab.
+
+Har bir mashq uchun unique ID yarat.
+
+Masalan:
+
+```javascript
+{
+  id: "level5_operator_discount_102",
+  type: "coding",
+  concept: "operators"
+}
+```
+
+Talaba bajargan topshiriqlarning IDlari history'da saqlansin.
+
+Yangi topshiriq generatsiya qilinayotganda:
+
+```text
+generatedExerciseID
+```
+
+oldingi:
+
+```text
+completedExerciseIDs
+```
+
+ichida mavjudligini tekshir.
+
+Agar mavjud bo‘lsa, boshqa variant generatsiya qil.
+
+Faqat raqamlarni almashtirib bir xil savolni qaytarmagin.
+
+Masalan:
+
+Oldingi:
+
+"5 va 10 ni qo‘shing."
+
+Keyingi:
+
+"8 va 12 ni qo‘shing."
+
+Bu yangi topshiriq hisoblanmasin.
+
+Topshiriqning:
+
+- voqeasi;
+- maqsadi;
+- ma’lumotlari;
+- savol usuli
+
+ham o‘zgarsin.
+
+---
+
+# 11. EXERCISE GENERATOR
+
+Mashqlarni template asosida generatsiya qil.
+
+Masalan:
+
+```javascript
+const exerciseTypes = [
+  "write-code",
+  "debug",
+  "predict-output",
+  "fill-code",
+  "multiple-choice",
+  "reorder-code",
+  "real-life-problem"
+];
+```
+
+Random tanla.
+
+Lekin tasodifiy tanlov talabaning darajasiga mos bo‘lsin.
+
+---
+
+# 12. DIFFICULTY SYSTEM
+
+Har bir topshiriq:
+
+```text
+Easy
+Normal
+Hard
+Boss
+```
+
+darajasiga ega bo‘lsin.
+
+Talaba yangi mavzuda:
+
+Easy → Normal
+
+bilan boshlaydi.
+
+Natijasi yaxshilansa:
+
+Hard
+
+ochiladi.
+
+Level oxirida:
+
+Boss Challenge
+
+bo‘lsin.
+
+---
+
+# 13. BOSS CHALLENGE
+
+Har 3–5 darsdan keyin Boss Challenge bo‘lsin.
+
+Boss Challenge bir nechta mavzuni birlashtirsin.
+
+Misol:
+
+Talaba:
+
+- input;
+- int;
+- if;
+- print
+
+bilsa:
+
+"Foydalanuvchining yoshini olib, unga kirish mumkin yoki mumkin emasligini aniqlaydigan dastur yozing."
+
+---
+
+# 14. XP TIZIMI
+
+Talaba mashqlar orqali XP olsin.
+
+Masalan:
+
+```text
+Easy: +10 XP
+Normal: +20 XP
+Hard: +40 XP
+Boss: +100 XP
+```
+
+Hint ishlatilsa:
+
+XP biroz kamayishi mumkin.
+
+Lekin jazolovchi UX yaratma.
+
+---
+
+# 15. LEVEL SYSTEM
+
+Masalan:
+
+```text
+Level 1 — Python Rookie
+Level 2 — Code Explorer
+Level 3 — Logic Builder
+Level 4 — Python Coder
+Level 5 — Problem Solver
+Level 6 — Python Developer
+```
+
+Talabaning XPsi oshishi bilan rank ham o‘zgarsin.
+
+---
+
+# 16. STREAK
+
+Talaba har kuni kamida bitta mashq bajarsa:
+
+🔥 streak
+
+oshadi.
+
+Dashboard:
+
+```text
+🔥 7 kunlik streak
+```
+
+ko‘rsatsin.
+
+---
+
+# 17. ACHIEVEMENT
+
+Badge'lar yarat:
+
+```text
+🐍 First Python Code
+🔥 7 Day Streak
+🐞 Bug Hunter
+🧠 Logic Master
+🔁 Loop Master
+📦 Collection Master
+⚙ Function Master
+🏆 Python Explorer
+👑 Python Master
+```
+
+---
+
+# 18. HINT TIZIMI
+
+Talabaga tayyor javobni darhol berma.
+
+3 bosqichli hint tizimi yarat.
+
+### Hint 1
+
+Faqat yo‘nalish ber.
+
+### Hint 2
+
+Qaysi Python elementi kerakligini ayt.
+
+### Hint 3
+
+Kodning bir qismini ko‘rsat.
+
+Undan keyingina:
+
+**Yechimni ko‘rsat**
+
+tugmasi paydo bo‘lsin.
+
+---
+
+# 19. XATO QILGAN TALABAGA JAVOB
+
+Hech qachon:
+
+❌ "Noto‘g‘ri"
+
+deb tugatma.
+
+Masalan:
+
+```text
+Hali to‘liq emas 🤔
+
+Siz `input()` orqali qiymat oldingiz, lekin input natijasi matn bo‘lib keladi.
+
+Son sifatida ishlatish uchun qaysi funksiyadan foydalanardik?
+```
+
+Talabani o‘ylashga unda.
+
+---
+
+# 20. CODE CHECKER
+
+Talabaning kodi faqat exact text orqali tekshirilmasin.
+
+Masalan:
+
+```python
+a = 5
+b = 10
+print(a + b)
+```
+
+va
+
+```python
+x = 5
+y = 10
+print(x+y)
+```
+
+ikkalasi ham to‘g‘ri hisoblanishi mumkin.
+
+Natija va mantiq tekshirilsin.
+
+---
+
+# 21. PROGRESS
+
+Dashboardda:
+
+```text
+Python kursi
+████████░░░░ 67%
+
+24 / 32 level
+
+🔥 8 kun streak
+
+⭐ 2450 XP
+
+🏆 17 achievement
+```
+
+ko‘rsatilsin.
+
+---
+
+# 22. TARIX
+
+Alohida:
+
+**Tarix**
+
+sahifasi bo‘lsin.
+
+Unda:
+
+```text
+Sana
+Level
+Dars
+Topshiriq
+Natija
+XP
+Urinishlar soni
+Ishlatilgan hint
+```
+
+saqlansin.
+
+Masalan:
+
+```text
+30.10.2026
+Level 6
+If / Else
+✅ Bajarildi
++20 XP
+2 urinish
+```
+
+---
+
+# 23. LOCAL STORAGE
+
+Login tizimisiz birinchi versiyada quyidagilarni:
+
+```javascript
+localStorage
+```
+
+orqali saqla:
+
+```text
+currentLevel
+completedLessons
+completedExercises
+exerciseHistory
+xp
+streak
+achievements
+codeHistory
+settings
+lastVisit
+```
+
+Sahifa yopilib qayta ochilganda progress yo‘qolmasin.
+
+---
+
+# 24. SAVE STRUCTURE
+
+Masalan:
+
+```javascript
+const userProgress = {
+  xp: 350,
+  currentLevel: 4,
+
+  completedLessons: [],
+
+  completedExercises: [],
+
+  exerciseHistory: [],
+
+  achievements: [],
+
+  streak: 3,
+
+  lastVisit: ""
+};
+```
+
+---
+
+# 25. DASHBOARD
+
+Dashboardda katta kartalar:
+
+```text
+Davom ettirish
+
+Bugungi challenge
+
+Kurs progressi
+
+Streak
+
+XP
+
+Achievement
+
+Oxirgi o‘rganilgan mavzu
+```
+
+ko‘rsatilsin.
+
+---
+
+# 26. KURS XARITASI
+
+Oddiy menu emas.
+
+Game-map ko‘rinishida yarat:
+
+```text
+START
+  │
+  ● Python Basics
+  │
+  ● Variables
+  │
+  ● Data Types
+  │
+  ● Input
+  │
+  🔒 Operators
+  │
+  🔒 Conditions
+  │
+  🔒 Loops
+  │
+  ...
+  │
+ 🏆 FINAL
+```
+
+Level bajarilmaguncha keyingi muhim level lock holatda bo‘lsin.
+
+---
+
+# 27. QUIZ
+
+Har bir level oxirida 3–7 savollik mini quiz bo‘lsin.
+
+Savollar har safar random pool'dan tanlansin.
+
+Bir xil 5 savol doimo chiqmasin.
+
+---
+
+# 28. DAILY CHALLENGE
+
+Har kuni:
+
+**Bugungi Python Challenge**
+
+generatsiya qil.
+
+Talabaning hozirgacha o‘rgangan mavzularidan foydalan.
+
+U hali o‘rganmagan mavzudan savol berma.
+
+---
+
+# 29. REVIEW SYSTEM
+
+Talaba xato qilgan mavzularni kuzat.
+
+Masalan:
+
+```javascript
+weakTopics = {
+  loops: 5,
+  conditions: 2,
+  lists: 1
+}
+```
+
+Ko‘p xato qilayotgan mavzu dashboardda:
+
+```text
+🧠 Bugun for siklini yana mashq qilib ko‘ramizmi?
+```
+
+kabi tavsiya ko‘rsatsin.
+
+---
+
+# 30. ADAPTIVE LEARNING
+
+Agar talaba ketma-ket bir nechta savolni oson yechsa:
+
+qiyinroq topshiriq ber.
+
+Agar ketma-ket xato qilsa:
+
+osonroq mashq va qisqa izoh ber.
+
+Talabaning darajasiga moslash.
+
+---
+
+# 31. UI DIZAYN
+
+Zamonaviy education + gaming dizayn ishlat.
+
+Web-sayt:
+
+- professional;
+- clean;
+- minimal;
+- zamonaviy;
+- ko‘zga yoqimli;
+- talaba uchun qiziqarli
+
+bo‘lsin.
+
+Ortacha dark mode dizayn ishlat.
+
+Ranglar:
+
+- Python ko‘k;
+- Python sariq;
+- yashil success;
+- qizil error;
+- binafsha XP.
+
+Gradientlardan me’yorida foydalan.
+
+---
+
+# 32. SIDEBAR
+
+Desktop:
+
+chap sidebar.
+
+Elementlar:
+
+```text
+🐍 PyQuest
+
+🏠 Dashboard
+🗺 Kurs
+⚔ Mashqlar
+🔥 Daily Challenge
+🧠 Review
+🏆 Achievements
+📊 Progress
+🕐 Tarix
+⚙ Settings
+```
+
+---
+
+# 33. HEADER
+
+Header:
+
+```text
+🔥 7
+⭐ 1250 XP
+Level 8
+👤 Profile
+```
+
+---
+
+# 34. RESPONSIVE DESIGN
+
+Web-sayt:
+
+- Desktop
+- Laptop
+- Tablet
+- Telefon
+
+uchun responsive bo‘lsin.
+
+Mobile navigation alohida moslashtirilsin.
+
+---
+
+# 35. ANIMATSIYA
+
+Animatsiyalar yengil va sifatli bo‘lsin.
+
+Masalan:
+
+Level complete:
+
+```text
+✨ LEVEL COMPLETE ✨
+```
+
+XP:
+
+```text
++20 XP
+```
+
+Achievement:
+
+```text
+🏆 New Achievement!
+```
+
+Lekin haddan tashqari ko‘p animatsiya ishlatma.
+
+---
+
+# 36. NOTIFICATION
+
+Toast notification:
+
+```text
+✅ To‘g‘ri!
+```
+
+```text
+⭐ +20 XP
+```
+
+```text
+🏆 Yangi achievement
+```
+
+---
+
+# 37. TALABANING KOD TARIXI
+
+Talabaning oldingi kodlarini ham saqla.
+
+Masalan:
+
+```text
+30 Oct
+Operators
+calculator.py
+
+29 Oct
+Variables
+student_info.py
+```
+
+Talaba oldingi kodini qayta ochishi mumkin bo‘lsin.
+
+---
+
+# 38. SEARCH
+
+Kurs bo‘yicha search bo‘lsin.
+
+Masalan:
+
+```text
+Search: list
+```
+
+Natija:
+
+```text
+List nima?
+append()
+remove()
+List vs Tuple
+List mashqlari
+```
+
+---
+
+# 39. PYTHON CHEAT SHEET
+
+Alohida:
+
+**Python Cheat Sheet**
+
+sahifasi yarat.
+
+Unda tezkor eslatmalar:
+
+```python
+print()
+input()
+
+if / elif / else
+
+for
+
+while
+
+list
+
+dict
+
+def
+
+class
+
+try / except
+```
+
+bo‘lsin.
+
+Bu sahifa tayyor javoblar bazasi emas, qisqa eslatma bo‘lsin.
+
+---
+
+# 40. "NEGA?" BLOKI
+
+Ko‘p darslarda:
+
+### Nega bu kerak?
+
+kartasi bo‘lsin.
+
+Masalan:
+
+**List nima uchun kerak?**
+
+"100 ta talabaning ismini alohida variable ichida saqlash o‘rniga, bitta list ichida saqlash mumkin."
+
+---
+
+# 41. REAL LIFE BLOKI
+
+Darslarda:
+
+### Haqiqiy hayotda
+
+kartasi bo‘lsin.
+
+Masalan:
+
+Dictionary:
+
+```text
+User profile
+API ma’lumoti
+Mahsulot
+Talaba ma’lumoti
+```
+
+kabi joylarda ishlatilishini ko‘rsat.
+
+---
+
+# 42. COMMON MISTAKES
+
+Har bir muhim darsda:
+
+### Ko‘p uchraydigan xato
+
+bo‘limi bo‘lsin.
+
+Masalan:
+
+```python
+if yosh = 18:
+```
+
+❌ noto‘g‘ri
+
+```python
+if yosh == 18:
+```
+
+✅ to‘g‘ri
+
+Keyin:
+
+`=` qiymat beradi.
+
+`==` tengligini tekshiradi.
+
+deb tushuntir.
+
+---
+
+# 43. DARSNI TUGATISH
+
+Har bir dars oxirida:
+
+```text
+✅ Nazariya
+✅ Kod
+✅ 5 mashq
+✅ Quiz
+
+[ Darsni tugatish ]
+```
+
+bo‘lsin.
+
+---
+
+# 44. TALABA DARSNI SKIP QILA OLMASIN
+
+Muhim mavzular ketma-ketligini saqla.
+
+Masalan:
+
+Variable'ni tushunmagan talabaga Function darsini ochib yuborma.
+
+Lekin oldingi tugatilgan darslarga istalgan payt qaytish mumkin bo‘lsin.
+
+---
+
+# 45. FINAL CERTIFICATE
+
+Kurs tugagach:
+
+```text
+PYQUEST ACADEMY
+
+Python Fundamentals
+
+Course Completed
+```
+
+kabi sertifikat kartasi ko‘rsat.
+
+Talabaning:
+
+- ism;
+- yakuniy XP;
+- bajarilgan topshiriqlar;
+- final natija
+
+ko‘rsatilsin.
+
+---
+
+# 46. TEXNIK ARXITEKTURA
+
+Kodlarni modulli yoz.
+
+Tavsiya etiladigan struktura:
+
+```text
+src/
+│
+├── components/
+│   ├── Header
+│   ├── Sidebar
+│   ├── ProgressBar
+│   ├── XPBadge
+│   ├── CodeEditor
+│   ├── Console
+│   ├── ExerciseCard
+│   ├── QuizCard
+│   ├── HintBox
+│   └── AchievementPopup
+│
+├── pages/
+│   ├── Dashboard
+│   ├── Course
+│   ├── Lesson
+│   ├── Practice
+│   ├── DailyChallenge
+│   ├── Review
+│   ├── Progress
+│   ├── History
+│   ├── Achievements
+│   ├── CheatSheet
+│   └── Settings
+│
+├── data/
+│   ├── curriculum
+│   ├── lessons
+│   ├── exercises
+│   └── achievements
+│
+├── services/
+│   ├── progress
+│   ├── exerciseGenerator
+│   ├── codeChecker
+│   └── storage
+│
+└── utils/
+```
+
+React + TypeScript ishlatish tavsiya etiladi.
+
+UI uchun Tailwind CSS ishlatish mumkin.
+
+---
+
+# 47. KOD SIFATI
+
+Kod:
+
+- clean;
+- modular;
+- reusable;
+- component-based;
+- tushunarli
+
+bo‘lsin.
+
+Bitta 5000 qatorlik component yaratma.
+
+Har bir katta vazifani alohida modulga ajrat.
+
+---
+
+# 48. DEMO DATA BILAN CHEKLANMA
+
+Saytni faqat chiroyli frontend demo qilib qo‘yma.
+
+Quyidagilar haqiqatan ishlashi kerak:
+
+- dars ochilishi;
+- next lesson;
+- progress;
+- XP;
+- history;
+- localStorage;
+- exercise;
+- random exercise;
+- duplicate exercise protection;
+- quiz;
+- hint;
+- achievement;
+- streak;
+- level locking;
+- code history.
+
+---
+
+# 49. BIRINCHI ISHGA TUSHGANDA
+
+Yangi foydalanuvchiga:
+
+```text
+Python'ni bilish darajangiz qanday?
+```
+
+variantlari chiqsin:
+
+```text
+🌱 Umuman bilmayman
+🐣 Biroz bilaman
+🐍 Asoslarni bilaman
+```
+
+Lekin "Umuman bilmayman" variantida kurs Level 0 dan boshlansin.
+
+---
+
+# 50. ONBOARDING
+
+3 ta qisqa onboarding ekran:
+
+### 1
+
+🐍 Python'ni o‘rganing
+
+### 2
+
+⚔ Mashqlar bajaring
+
+### 3
+
+🏆 Level oshiring
+
+Keyin:
+
+**Boshlash**
+
+tugmasi.
+
+---
+
+# 51. ASOSIY PEDAGOGIK QOIDA
+
+Har bir yangi mavzu quyidagi ketma-ketlikda o‘rgatilsin:
+
+```text
+Tushunish
+↓
+Ko‘rish
+↓
+Sinab ko‘rish
+↓
+Xato qilish
+↓
+Tuzatish
+↓
+Mustaqil ishlash
+↓
+Challenge
+```
+
+---
+
+# 52. MUHIM
+
+Talabaga bir mavzu tushuntirilganda birdan juda ko‘p yangi ma’lumot berma.
+
+Masalan:
+
+`for` darsida:
+
+- decorators;
+- generators;
+- iterators implementation
+
+kabi yuqori mavzularni aralashtirma.
+
+Talabaning hozirgi darajasiga mos tushuntir.
+
+---
+
+# 53. DARS FORMATINING NAMUNASI
+
+Masalan:
+
+# IF / ELSE
+
+## 1. Qisqa nazariya
+
+Dastur ba’zan qaror qabul qilishi kerak.
+
+Masalan:
+
+"Agar foydalanuvchi 18 yoshdan katta bo‘lsa, saytga kirishga ruxsat ber."
+
+Python'da buning uchun `if` ishlatiladi.
+
+```python
+yosh = 20
+
+if yosh >= 18:
+    print("Kirish mumkin")
+```
+
+### Kalit so‘zlar
+
+`if` — shartni tekshiradi.
+
+`>=` — katta yoki teng.
+
+---
+
+## 2. Kod misoli
+
+```python
+yosh = 16  # Foydalanuvchi yoshi
+
+if yosh >= 18:
+    print("Kirish mumkin")
+else:
+    print("Kirish mumkin emas")
+```
+
+### Kod qanday ishlaydi?
+
+1. `yosh` variable yaratiladi.
+2. Python yoshni 18 bilan solishtiradi.
+3. Shart rost bo‘lsa birinchi `print()` ishlaydi.
+4. Aks holda `else` ishlaydi.
+
+---
+
+## 3. Taqqoslash jadvali
+
+| Operator | Ma’nosi |
+|---|---|
+| `==` | Teng |
+| `!=` | Teng emas |
+| `>` | Katta |
+| `<` | Kichik |
+| `>=` | Katta yoki teng |
+| `<=` | Kichik yoki teng |
+
+---
+
+## Mashq
+
+Foydalanuvchidan haroratni oling.
+
+Agar harorat 30 yoki undan yuqori bo‘lsa:
+
+```text
+Havo issiq
+```
+
+aks holda:
+
+```text
+Havo normal
+```
+
+chiqaradigan dastur yozing.
+
+---
+
+# 54. YAKUNIY MAQSAD
+
+Bu web-saytni tugatgan talaba:
+
+- Python sintaksisini tushunishi;
+- variable ishlatishi;
+- ma’lumot turlarini farqlashi;
+- input/output ishlatishi;
+- operatorlardan foydalanishi;
+- if/elif/else yozishi;
+- for va while ishlatishi;
+- string bilan ishlashi;
+- list/tuple/set/dict ishlatishi;
+- function yaratishi;
+- module import qilishi;
+- exception boshqarishi;
+- file bilan ishlashi;
+- JSON tushunishi;
+- OOP asoslarini bilishi;
+- xatolarni topishi;
+- algoritmik fikrlashi;
+- kichik loyihani mustaqil yaratishi
+
+kerak.
+
+---
+
+# 55. IMPLEMENTATSIYA QOIDASI
+
+Loyihani birdaniga bitta ulkan kod sifatida yaratma.
+
+Quyidagi bosqichlar bilan ishlab chiq:
+
+### QADAM 1
+Project structure + UI shell.
+
+### QADAM 2
+Dashboard.
+
+### QADAM 3
+Curriculum va course map.
+
+### QADAM 4
+Lesson engine.
+
+### QADAM 5
+3 qismli lesson structure:
+- nazariya;
+- kod;
+- jadval.
+
+### QADAM 6
+Code editor.
+
+### QADAM 7
+Exercise engine.
+
+### QADAM 8
+Random exercise generator.
+
+### QADAM 9
+Duplicate exercise prevention.
+
+### QADAM 10
+Quiz system.
+
+### QADAM 11
+XP va Level.
+
+### QADAM 12
+Achievements.
+
+### QADAM 13
+Streak.
+
+### QADAM 14
+History.
+
+### QADAM 15
+Progress tracking.
+
+### QADAM 16
+Review va weak-topic system.
+
+### QADAM 17
+Daily Challenge.
+
+### QADAM 18
+Python Cheat Sheet.
+
+### QADAM 19
+Mini Projects.
+
+### QADAM 20
+Final Challenge.
+
+Har bir qadamni tugatgach keyingi qadamga o‘t.
+
+Mavjud ishlaydigan kodni buzma.
+
+Har bir yangi funksiya oldingi tizim bilan integratsiya qilinsin.
+
+---
+
+# ENG MUHIM TALAB
+
+Bu saytning vazifasi talabaga javob berish emas.
+
+**Talabaga dasturlashni o‘rgatish.**
+
+Shuning uchun AI hech qachon murakkab topshiriqning to‘liq javobini birinchi urinishdayoq ko‘rsatmasin.
+
+Avval:
+
+1. talaba urinib ko‘rsin;
+2. xato qilsa tushuntirish olsin;
+3. hint olsin;
+4. yana urinib ko‘rsin;
+5. zarur bo‘lsa yechimni ko‘rsin.
+
+Har bir level avvalgisidan biroz murakkabroq bo‘lsin.
+
+Kursning oxiriga kelganda talaba yordamga kamroq tayanib, kodni o‘zi yozadigan darajaga olib chiqilsin.
+
+Endi ushbu talablar asosida loyihaning **1-QADAMI — loyiha arxitekturasi, asosiy UI, routing va Dashboard skeletini** professional production-quality kod bilan yaratishni boshla.
